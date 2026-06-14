@@ -1,23 +1,9 @@
-# Data Cleaning Project - Airbnb New York 2019
+This project focuses on cleaning and preprocessing the Airbnb New York City 2019 dataset using Python and Pandas. The objective was to improve data quality by handling missing values, removing inconsistencies, standardizing data formats, and detecting outliers. The dataset contained over 48,000 Airbnb listings with information such as host details, location, room type, price, reviews, and availability.
 
-## Overview
-This project focuses on cleaning the Airbnb New York 2019 dataset using Python and Pandas.
+During the cleaning process, missing values in columns such as host names, listing names, review dates, and reviews per month were identified and handled appropriately. Duplicate records were checked and removed when necessary to ensure data integrity. Column names were standardized for consistency, and outliers in the price column were detected and removed using the Interquartile Range (IQR) method.
 
-## Dataset
-- Airbnb NYC 2019 Dataset
-- 48,895 rows and 16 columns
+After preprocessing, a clean dataset was generated and saved for further analysis and machine learning applications. Additionally, visualizations were created to understand the distribution of Airbnb prices across New York City listings.
 
-## Tasks Performed
-- Handled missing values
-- Removed duplicate records
-- Standardized column names
-- Treated outliers in price column
-- Saved cleaned dataset
+Technologies Used: Python, Pandas, NumPy, Matplotlib, VS Code
 
-## Tools Used
-- Python
-- Pandas
-- VS Code
-
-## Output
-A cleaned dataset (`cleaned_data.csv`) ready for analysis and machine learning.
+Key Skills Demonstrated: Data Cleaning, Data Preprocessing, Missing Value Treatment, Outlier Detection, Data Visualization, Exploratory Data Analysis (EDA), Python Programming.
